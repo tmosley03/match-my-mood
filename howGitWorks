@@ -1,0 +1,102 @@
+
+salaz@DESKTOP-7NK8M0Q MINGW64 ~
+$ cd documents
+
+salaz@DESKTOP-7NK8M0Q MINGW64 ~/documents
+$ cd Local-Code
+
+salaz@DESKTOP-7NK8M0Q MINGW64 ~/documents/Local-Code
+$ ls
+ 18HABA/                      Homework/        practice-Train/                        Sriracha.js
+ Class-Repo/                  HotRestaurant/   Projects/                             'Store&Work'/
+'Google Map Prototype.html'   netflix/         Sample/                                Taco/
+ green_rain/                  Notes/           SMDA201801FSF4-Class-Repository-FSF/   Untitled-1.txt
+
+salaz@DESKTOP-7NK8M0Q MINGW64 ~/documents/Local-Code
+$ cd Sample
+
+salaz@DESKTOP-7NK8M0Q MINGW64 ~/documents/Local-Code/Sample
+$ git clone https://github.com/tmosley03/match-my-mood.git
+Cloning into 'match-my-mood'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+salaz@DESKTOP-7NK8M0Q MINGW64 ~/documents/Local-Code/Sample
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+salaz@DESKTOP-7NK8M0Q MINGW64 ~/documents/Local-Code/Sample
+$ cd match-my-mood/
+
+salaz@DESKTOP-7NK8M0Q MINGW64 ~/documents/Local-Code/Sample/match-my-mood (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+salaz@DESKTOP-7NK8M0Q MINGW64 ~/documents/Local-Code/Sample/match-my-mood (master)
+$ git checkout luis
+Switched to a new branch 'luis'
+Branch 'luis' set up to track remote branch 'luis' from 'origin'.
+
+salaz@DESKTOP-7NK8M0Q MINGW64 ~/documents/Local-Code/Sample/match-my-mood (luis)
+$ cd ..
+
+salaz@DESKTOP-7NK8M0Q MINGW64 ~/documents/Local-Code/Sample
+$ ls
+match-my-mood/  sample.js
+
+salaz@DESKTOP-7NK8M0Q MINGW64 ~/documents/Local-Code/Sample
+$ cd match-my-mood/
+
+salaz@DESKTOP-7NK8M0Q MINGW64 ~/documents/Local-Code/Sample/match-my-mood (luis)
+$ git pull origin master
+From https://github.com/tmosley03/match-my-mood
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+salaz@DESKTOP-7NK8M0Q MINGW64 ~/documents/Local-Code/Sample/match-my-mood (luis)
+$ touch testing.js
+
+salaz@DESKTOP-7NK8M0Q MINGW64 ~/documents/Local-Code/Sample/match-my-mood (luis)
+$ ls
+README.md  testing.js
+
+salaz@DESKTOP-7NK8M0Q MINGW64 ~/documents/Local-Code/Sample/match-my-mood (luis)
+$ git status
+On branch luis
+Your branch is up to date with 'origin/luis'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        testing.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+salaz@DESKTOP-7NK8M0Q MINGW64 ~/documents/Local-Code/Sample/match-my-mood (luis)
+$ git add .
+
+salaz@DESKTOP-7NK8M0Q MINGW64 ~/documents/Local-Code/Sample/match-my-mood (luis)
+$ git commit -m "test1"
+[luis 9b1e32a] test1
+ 1 file changed, 2 insertions(+)
+ create mode 100644 testing.js
+
+salaz@DESKTOP-7NK8M0Q MINGW64 ~/documents/Local-Code/Sample/match-my-mood (luis)
+$ git push origin luis
+fatal: HttpRequestException encountered.
+   An error occurred while sending the request.
+Username for 'https://github.com': vluizang3l888v
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 293 bytes | 293.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/tmosley03/match-my-mood.git
+   6d04814..9b1e32a  luis -> luis
+
+salaz@DESKTOP-7NK8M0Q MINGW64 ~/documents/Local-Code/Sample/match-my-mood (luis)
+$
