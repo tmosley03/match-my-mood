@@ -1,0 +1,18 @@
+
+
+^^ User info ^^
+
+|
+
+- User Name ["we need UserName to track the human"]
+
+- 3 favorite movies ["we will give user a good movie to see back to them based on movies they already like"]
+
+- Age ["we need age to know what is ok to display or return"]
+
+- Language other than English ["Did they select other language? then. display other Language movies. ]
+
+|
+
+
+^^ make rows, make the SQL database to store this Intel ^^
