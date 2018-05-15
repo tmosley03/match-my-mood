@@ -23,8 +23,16 @@ name VARCHAR(30) NOT NULL,
 likes_movies BOOLEAN NOT NULL, 
 
 
+
 -- makes a sting column called "list_of_movies"
 list_of_movies VARCHAR(30),
+
+
+
+-- makes a sting column called "list_of_movies"
+list_of_Language VARCHAR(40),
+-- just added the language option. 
+
 
 
 -- makes a numeric column called person_age.
