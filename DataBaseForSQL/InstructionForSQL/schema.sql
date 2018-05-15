@@ -1,3 +1,9 @@
+-- Connect to MySQL server
+-- mysql -uroot
+
+--no clue on what the two above sentences do. 
+
+
 -- will drop MovieApp_db if it exist currently. 
 DROP DATABASE IF EXIST MovieApp_db
 -- creates the MovieApp_db database.
