@@ -1,8 +1,3 @@
-
-
-
-
-
 var path = require("path");
 
 // Routes
@@ -16,13 +11,22 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, "../public/home.html"));
   });
 
-  app.get("/cms", function(req, res) {
+  app.get("/home", function(req,res){
+    res.redirect('/');
+  })
+
+  app.get("/luis", function(req,res){
+    res.redirect('/')
+  })
+
+  app.get("/profile", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/profile.html"));
   });
 
   // blog route loads blog.html
-  app.get("/blog", function(req, res) {
+  app.get("/results", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/results.html"));
   });
 
 };
+
