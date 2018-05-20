@@ -1,5 +1,8 @@
-INSERT INTO `matchmymood_db`.`user_data` (`id`, `User_Name`, `All_Time_Favorite_Movie`, `Age`, `Language_other_than_English`) VALUES ('1', 'TheKing888', 'The Lion King', '25', 'Spanish');
-INSERT INTO `matchmymood_db`.`user_data` (`id`, `User_Name`, `All_Time_Favorite_Movie`, `Age`, `Language_other_than_English`) VALUES ('2', 'Run35Run', 'Mulan', '30', 'French');
-INSERT INTO `matchmymood_db`.`user_data` (`id`, `User_Name`, `All_Time_Favorite_Movie`, `Age`) VALUES ('3', 'TheKite55', 'The Walking Dead', '90');
-INSERT INTO `matchmymood_db`.`user_data` (`id`, `User_Name`, `All_Time_Favorite_Movie`, `Age`) VALUES ('4', 'Car4343', 'Lost in Space', '23');
-INSERT INTO `matchmymood_db`.`user_data` (`id`, `User_Name`, `All_Time_Favorite_Movie`, `Age`, `Language_other_than_English`) VALUES ('5', 'Door75', 'Breaking Bad', '31', 'Spanish');
+
+INSERT INTO `moviemoodmatchapp_db`.`user_data` (`id`, `User_Name`, `Pass_Word`, `All_Time_Favorite_Movie`, `Age`, `Language_other_than_English`) VALUES ('1', 'FelipeGamer', 'password', 'The Lion King', '25', 'Spanish');
+INSERT INTO `moviemoodmatchapp_db`.`user_data` (`id`, `User_Name`, `Pass_Word`, `All_Time_Favorite_Movie`, `Age`, `Language_other_than_English`) VALUES ('2', 'DavidSalad', 'pazzw0rd', 'Star Wars', '30', 'Spanish');
+INSERT INTO `moviemoodmatchapp_db`.`user_data` (`id`, `User_Name`, `Pass_Word`, `All_Time_Favorite_Movie`, `Age`) VALUES ('3', 'CarlosPizza', '123456', 'Deadpool', '40');
+INSERT INTO `moviemoodmatchapp_db`.`user_data` (`id`, `User_Name`, `Pass_Word`, `All_Time_Favorite_Movie`, `Age`) VALUES ('4', 'FredBread', '654321', 'Deadpool 2', '90');
+INSERT INTO `moviemoodmatchapp_db`.`user_data` (`id`, `User_Name`, `Pass_Word`, `All_Time_Favorite_Movie`, `Age`) VALUES ('5', 'TechDonut', 'RunRunRun', 'Pirates of Silicon Valley', '40');
+INSERT INTO `moviemoodmatchapp_db`.`user_data` (`id`, `User_Name`, `Pass_Word`, `All_Time_Favorite_Movie`, `Age`, `Language_other_than_English`) VALUES ('6', 'CodeBanana', 'SlowSlowSlow', 'Hotel Transylvania', '50', 'Spanish');
+INSERT INTO `moviemoodmatchapp_db`.`user_data` (`id`, `User_Name`, `Pass_Word`, `All_Time_Favorite_Movie`, `Age`, `Language_other_than_English`) VALUES ('7', 'LuYang', 'ChinaRocks', 'Operation Red Sea', '40', 'Mandarin');
